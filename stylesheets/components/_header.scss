@@ -1,0 +1,62 @@
+.header{
+    $main-height: 496px;
+    position: relative;
+
+    .topimg-bg{
+        height: $main-height;
+    }
+    $rectangle-height: 256px;
+    .menu{
+        margin-top: -90px;
+    }
+
+    .imagewrap{
+        height: $rectangle-height;
+        border-right: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+        writing-mode: vertical-lr;
+        z-index: 2;
+        position: relative;
+        overflow: hidden;
+    
+
+        .transparenttop{  
+            background-color: rgba(theme-color('themegreen-d'), .8);
+            transition: background-color .5s;
+        }
+
+         // 互動樣式
+        &.active, &:hover, &:focus {
+            color: theme-color('themegreen-d');
+            font-weight: bolder;
+        .transparenttop {
+             background-color: rgba(theme-color('accent'), .8);
+            }
+        .bottom {
+            filter: blur(0);
+            }
+        } 
+    }
+
+.img-text{
+    font-size: 24px;
+    letter-spacing: 10px;
+    }
+
+
+
+.bottom{
+    z-index: -2;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -10px;
+    left: -10px;
+    filter: blur(5px);
+    transition: filter .5s;
+    }
+}

@@ -1,0 +1,31 @@
+.bg-cover{
+    background-size: cover;
+    background-position: center center;
+}
+
+.zindex1{
+     z-index: -1;
+}
+
+.four-sides{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.writing-vertical{
+    writing-mode: vertical-rl;
+}
+
+.writing-md-vertical{
+    @include media-breakpoint-up(md){
+         writing-mode: vertical-rl;
+    }
+}
+
+.page-link.active{
+            background-color: #3F5D45;
+            color: #EAF0ED !important;
+}

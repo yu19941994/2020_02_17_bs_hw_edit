@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>六角甜點工坊</title>
+    
+    <link rel="shortcut icon" href="images/favicon_256.ico">
+    <meta name='description' content='六角甜點工坊官方網站' />
+    
+    
+    <meta property="og:title" content="六角甜點工坊" />
+    <meta property="og:description" content="角甜點工坊官方網站">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="FB上的網址" />
+    <meta property="og:image" content="FB的圖片" />
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <!--加一個容器-->
+        <div class="container">
+            <button class="navbar-toggler ml-5" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-all-dark.svg" height="40" class="d-none d-md-block">
+                <img src="images/logotype-sm-dark.svg" height="17.74" class="d-block d-md-none">
+            </a>
+            <!--購物車按鈕-->
+            <a class="nav-link d-flex text-themegreen-d font-weight-bold order-md-1" href="cart.html">
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+    
+    
+            <div class="collapse navbar-collapse ml-5" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-md-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-themegreen font-weight-bold" href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-themegreen font-weight-bold" href="product.html">甜點</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-themegreen-d font-weight-bold" href="login.html">登入<span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </div>
+    
+        </div>
+    </nav>
+    
+    <!--登入表單-->
+    <section class="container mt-md-5 px-0">
+        <div class="row justify-content-center no-gutters">
+            <div class="col-md-9">
+                <!--手機的標題，網頁版時會不見-->
+                <div class="d-md-none bg-themegreen-d">
+                    <h1 class="text-center text-themegreen-l py-5 mb-0">會員登入</h1>
+                </div>
+                <!--讓他從右到左-->
+                <div class="row no-gutters flex-md-row-reverse mt-0">
+                    <!--連結社群帳號-->
+                    <div class="col-md-6 bg-themegreen-l mt-md-3 p-5" style="max-height: 350px;">
+                        <h4 class="text-center text-themegreen d-none d-md-block">——連結社群帳號——</h4>
+                        <div class="row no-gutter">
+                            <!--寫btn-block讓他變區塊元素-->
+                            <div class="col-md-12 col-4 px-0">
+                                <button class="btn btn-white btn-lg py-3 mb-md-3 btn-block" style=" height: 56px;">
+                                    <img src="images/ic-facebook-logotype.svg" width="108.18" class="img-fluid"></button>
+                            </div>
+                            <div class="col-md-12 col-4 px-0">
+                                <button class="btn btn-white btn-lg py-3 mb-md-3 btn-block" style=" height: 56px;">
+                                    <img src="images/ic-google.svg" width="108.18" class="img-fluid"></button>
+                            </div>
+                            <div class="col-md-12 col-4 px-0">
+                                <button class="btn btn-white btn-lg py-3 mb-md-3 btn-block" style=" height: 56px;">
+                                    <img src="images/ic-yahoo.svg" width="108.18" class="img-fluid">
+                                </button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!--會員登入-->
+                    <div class="col-md-6 bg-themegreen-d px-0 mb-md-7" style="max-height: 380px;">
+                        <h1 class="text-center text-themegreen-l py-5 d-none d-md-block">會員登入</h1>
+                        <form>
+                            <div class="form-group px-5 text-themegreen-d my-3 py-0 ">
+                                <i class="fas fa-user-alt icon"></i>
+                                <input type="email" class="form-control bg-themegreen-l" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="電子信箱/手機號碼" style="font-size: 12px; height: 56px;">
+                            </div>
+                            <div class="form-group px-5 text-themegreen-d my-3">
+                                <i class="fas fa-key icon"></i>
+                                <input type="password" class="form-control bg-themegreen-l" id="exampleInputPassword1" placeholder="請輸入使用者密碼" style="font-size: 12px; height: 56px;">
+                            </div>
+                            <div class="form-group form-check ml-5">
+                                <input type="checkbox" class="form-check-input bg-themegreen-l" id="exampleCheck1">
+                                <label class="form-check-label text-themegreen-l" for="exampleCheck1">記住我</label>
+                            </div>
+                            <button type="submit" class="btn btn-accent text-themegreen-d w-100 py-3"><h5>登入帳號</h5></button>
+                        </form>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--深綠區塊-->
+    <section class="mt-md-5 bg-themegreen-d">
+        <div class="container">
+            <div class="row py-5 d-flex justify-content-center">
+                <div class="col-md-5 d-flex justify-content-center">
+                    <img src="images/logo-light.svg" width="40" class="mr-4">
+                    <p class="pt-2 h4 text-themegreen-l">訂閱你我的甜蜜郵件</p>
+                </div>
+                <div class="col-md-5">
+                    <form>
+                        <div class="form-square d-flex justify-content-between">
+                            <span class="text-themegreen-d py-3 px-4"><i class="fas fa-envelope fa-lg"></i></span>
+                            <input type="email" class="w-100 form-mail" id="subscription">
+                            <button type="submit" class="btn btn-accent btn-lg text-themegreen-d" style="height: 56px;"><i
+                                    class="fas fa-arrow-right"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-themegreen-l py-4">
+        <div class="container">
+    
+            <div class="row justify-content-center py-4">
+                <!--讓他垂直-->
+                <div class="col-md-5 d-flex flex-column justify-content-between">
+                    <img src="images/logotype-sm-dark.svg" width="171.22">
+                    <!--去除點點-->
+                    <ul class="list-unstyled mt-9 text-themegreen-d">
+                        <li>07-1234-5678</li>
+                        <li><a href="sweetaste@email.com"
+                                style="text-decoration: none; color:rgb(64, 94, 70);">sweetaste@email.com</a></li>
+                        <li>800 高雄市新興區幸福路 520 號</li>
+                    </ul>
+                </div>
+                <div class="col-md-5 text-right d-none d-md-block">
+                    <img src="images/sm-今天是個吃甜點的好日子.svg" width="60">
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-5 d-flex">
+                    <img src="images/ic-line@.svg" width="32" style="padding: 4px;">
+                    <img src="images/ic-facebook.svg" width="32" style="padding: 4px;">
+                </div>
+                <div class="col-md-5 text-md-right text-themegreen-d">
+                    <span>© 2018 Sweetaste* All Rights Reserved</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+
+</html>

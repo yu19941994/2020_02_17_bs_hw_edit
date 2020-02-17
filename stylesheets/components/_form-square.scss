@@ -1,0 +1,22 @@
+.form-square{
+    border: none;
+    height: 56px;   
+    background-color: #EAF0ED;    
+}
+
+.form-square-within-icon::placeholder{
+    padding-left: 44px;
+}
+
+.form-control::placeholder{
+    color: #8DA291;
+    // padding-left: 44px;
+}
+
+.icon{
+    position: relative;
+    top: 40px;
+    bottom: 0;
+    right: 0;
+    left: 20px;
+}
